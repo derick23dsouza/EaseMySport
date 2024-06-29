@@ -1,0 +1,21 @@
+.column{
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.columnHeader{
+    width: 100%;
+    height: 23px;
+    font-size: 18px;
+    font-weight:600 ;
+    
+}
+
+.footfall{
+    
+
+    margin: 10px;
+}

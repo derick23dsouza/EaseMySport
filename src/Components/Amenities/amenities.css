@@ -1,0 +1,38 @@
+.column{
+    width: 429.5px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.columnHeader{
+    width: 100%;
+    height: 23px;
+    font-size: 18px;
+    font-weight:600 ;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    height: 22px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9E9F ;
+    margin: 15px 0px;
+}
+
+.amenities{
+    flex: 1;
+}
+
+.listHolder{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 16px ;
+    flex-wrap: wrap;
+
+}
