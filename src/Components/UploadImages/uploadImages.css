@@ -1,0 +1,71 @@
+.upload{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.columnHeader{
+    width: 100%;
+    height: 23px;
+    font-size: 18px;
+    font-weight:600 ;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    height: 22px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9E9F ;
+    margin: 15px 0px;
+}
+
+.uploadDnD{
+    display: flex;
+    flex-direction: column;
+    width: 845px;
+    height: 151px;
+    border:  1px solid #D4D4D4 ;
+    border-radius:8px ;
+    border-style: dashed;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#9B9E9F ;
+    margin-top: 17px;
+}
+
+.accepted{
+    margin: 20px 0px;
+    color:#9B9E9F ;
+    
+
+}
+
+.addMore{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 5.5px;
+    border-top: 1px solid #E3E3E3;
+}
+
+.addmoreButton{
+    display: flex;
+    align-items: center;
+    background-color: #007AFF12;
+    color: #007AFF;
+    border: none;
+
+}
+

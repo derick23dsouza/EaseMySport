@@ -1,0 +1,23 @@
+.questionBarContainer{
+    display: flex;
+    width: 340px;
+    flex-direction: column;
+    border-right: 1px solid #E2E4E5;
+    
+    
+
+}
+
+.headerQ{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:29px 20px ;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    
+    
+    
+}
+

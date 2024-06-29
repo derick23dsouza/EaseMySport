@@ -1,0 +1,30 @@
+.questionBarItem{
+    display: flex;
+        align-items: center ;
+    
+    width: 339px;
+    height: 59px;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+    border: 1px solid #E2E4E5 ;
+    
+    
+
+
+
+}
+
+.questionBarItem img{
+    
+ margin: 17px;
+ background-color: transparent;
+}
+
+.questionBarItem div{
+    text-wrap: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    padding: 10px;
+    background-color: transparent;
+}

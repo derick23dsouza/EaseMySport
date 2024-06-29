@@ -1,0 +1,54 @@
+.column{
+    width: 429.5px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.columnHeader{
+    width: 100%;
+    height: 23px;
+    font-size: 18px;
+    font-weight:600 ;
+}
+
+.showSport{
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 184px;
+    padding: 12px;
+    margin-top: 32px;
+    
+}
+.selected{
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    background-color: #4378BC;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin:0px 8px;
+}
+
+.unselect{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+.unselect img{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    color: white;
+}
+

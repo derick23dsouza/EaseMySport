@@ -1,0 +1,72 @@
+.column{
+    width: 429.5px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.columnHeader{
+    width: 100%;
+    height: 23px;
+    font-size: 18px;
+    font-weight:600 ;
+}
+.Phone-EstYear{
+    display: flex;
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    width: 183px;
+    width: 202px;
+    justify-content: space-between;
+    
+}
+
+.Phone{
+    
+    width: 162px;
+    border: none;
+    height: 21px;
+    font-size: 16px;
+
+
+
+
+}
+
+.logo-textBox{
+    margin-right: 16px ;
+}
+.PhoneHolder{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 1px solid #E2E4E5 ;
+    width: 202px;
+    margin-right:40px ;
+    
+}
+.EstYearHolder{
+    width: 183px;
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 1px solid #E2E4E5 ;
+    
+}
+
+#estYear{
+    width: 183px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    color: #9B9E9F;
+
+}

@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'sora-regular';
+  src: url(./assets/Fonts/static/Sora-Regular.ttf);
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  background-color: #ffffff;
+  font-family: 'sora-regular';
+  
+  
+}
+
+
+#root{
+  padding: 0;
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+   margin: 0;
+  height: 101px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E2E4E5;
+  padding-bottom:25px ;
+  
+}
+
+.logo{
+
+height: 86px;
+top: 8px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 8px ;
+
+
+gap: 0px;
+opacity: 0px;
+
+}
+
+.logoAndNav{
+  display: flex;
+  width: auto;
+  align-items: center;
+
+}
+.navbarItem{
+  height: 21px;
+  margin-top: 40px;
+  margin: 30px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #434343;
+
+}
+
+.signUp{
+  height: 59px;
+  top: 21px;
+  left: 1269px;
+  padding: 17px 54px 17px 54px;
+  gap: 10px;
+  border-radius: 96px;
+  opacity: 0px;
+  background-color: #F7901E;
+  border: none;
+  font-size: 20px;
+  font-weight:600;
+  color: #ffffff ;
+  margin-right: 40px;
+
+  
+}
+
+.login{
+height: 59px;
+top: 21px;
+left: 1137px;
+padding: 17px 54px 17px 54px;
+gap: 10px;
+border-radius: 96px;
+opacity: 0px;
+background-color: #F5F6FF;
+margin: 10px;
+border: none;
+font-size: 20px;
+font-weight: 600;
+
+}
+
+.body-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
+  
+}
+
