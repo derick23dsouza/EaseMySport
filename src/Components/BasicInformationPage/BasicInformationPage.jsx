@@ -3,6 +3,19 @@ import './BasicInformationPage.css'
 import InputText from '../Input/InputText'
 
 const BasicInformationPage = () => {
+  const address= null;
+  const state= null;
+  const pinCode= null;
+  const mapLink= null;
+
+  const basicInformationPageValue= {
+    address ,
+    state,
+    pinCode,
+    mapLink
+  }
+
+  console.log(basicInformationPageValue);
   return (
     <>
       <div className="column">
@@ -31,10 +44,10 @@ const BasicInformationPage = () => {
         <div className="columnHeader">
           Address
         </div>
-        <InputText placeholder='Address' logo='Address' />
-        <InputText placeholder='State' logo='Address' />
-        <InputText placeholder='Pin-code' logo='Address' />
-        <InputText placeholder='Google map link' logo='Address' />
+        <InputText placeholder='Address' logo='Address'  value= {address}/>
+        <InputText placeholder='State' logo='Address' value={state} />
+        <InputText placeholder='Pin-code' logo='Address' value={pinCode} />
+        <InputText placeholder='Google map link' logo='Address' value ={mapLink} />
       </div>
     </>
   )

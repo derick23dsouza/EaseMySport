@@ -2,3 +2,18 @@ label{
     font-size: 16px;
 }
 
+input[type="checkbox"] {
+    accent-color: #4378BC ; 
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.inputcheckHolder{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    width: 137px;
+    margin-bottom: 10px;
+    
+}

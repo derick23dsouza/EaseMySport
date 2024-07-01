@@ -4,4 +4,10 @@ textarea{
     resize: none;
     word-wrap: normal;
     border-color:#E2E4E5 ;
+    margin-bottom: 25px;
+}
+
+textarea::placeholder {
+    font-size: 16px; 
+    color: #9B9E9F; 
 }

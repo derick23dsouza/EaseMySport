@@ -111,3 +111,29 @@ font-weight: 600;
   
 }
 
+::-webkit-scrollbar {
+	width: 7.5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+
+::-webkit-scrollbar-thumb {
+	background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+}
+::-webkit-scrollbar-track {
+	background: white ;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(196, 190, 190) ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(109, 104, 104);
+}
